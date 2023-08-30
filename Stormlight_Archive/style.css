@@ -3,7 +3,7 @@ html {
     font-size: 16px;
     font-family: 'Encode Sans Semi Condensed', sans-serif;
     color: rgb(253, 235, 211);
-    background-color: rgba(35, 91, 195, 0.754);
+    background-color: rgb(26, 44, 82);
 }
 
 a {
@@ -15,7 +15,7 @@ a:hover {
 }
 
 h2 {
-    color: rgb(92, 42, 255);
+    color: rgb(120, 79, 253);
 }
 
 table {
@@ -28,4 +28,13 @@ table {
 
 .alignCenter {
     text-align: center;
+}
+
+.caja{
+    background-color: rgb(82, 43, 7);
+    border: 5px solid red;
+}
+
+.d-none{
+    display: none;
 }
