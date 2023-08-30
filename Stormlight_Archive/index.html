@@ -1,77 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El archivo de las tormentas</title>
+    <meta name="El archivo de las tormentas, una gran serie" content="Una pagina hecha por un fan del cosmere" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="https://www.17thshard.com/forum/uploads/monthly_2023_02/12A2120B-3876-4DE4-AC89-54658AA91ABB.jpeg.807c577126fa9fd1f49cb09a734127f2.thumb.jpeg.a5f4ce194b99a503bf494ced0424c65a.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>El archivo de las tormentas</h1>
+    <h1 id="Inicio">El archivo de las tormentas</h1>
     <hr>
 
-    <h3>
-        <table border="1" id="temporadas">
-            <tr>
-                <th>Número de libro</th>
-                <th>Nombre Libro</td>
+    <h2>Index</h2>
+    <ul>
+        <li>
+            <a href="#temporadas">Temporadas y nombre de la serie</a>
+        </li>
+        <li>
+            <a href="#InfoGeneral">Informacion General</a>
+        </li>
+        <li>
+            <a href="#Personajes"> Personajes</a>
+        </li>
+        <li>
+            <a href="#Sociales">Sociales</a>
+        </li>
+        <li>
+            <a href="#Escena"> Mejor Escena</a>
+        </li>
+    </ul>
+
+    <hr>
+
+    <table border="1" id="temporadas" class="alignCenter">
+        <tr>
+            <th>Número de libro</th>
+            <th>Nombre Libro</td>
                 <th>Fecha publicacion</td>
-                <th>Portada</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>El camino de los reyes</td>
-                <td>31 de agosto de 2010</td>
-                <td><img width=100% height="200" src="https://media.discordapp.net/attachments/1025054668038090855/1144031957483782245/51Qh9KpS2CL.png" alt="Portada de 'El camino de los reyes'"></td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Palabras radiantes</td>
-                <td>4 de Marzo de 2014</td>
-                <td><img width=100% height="200" src="https://media.discordapp.net/attachments/1025054668038090855/1144032380605186108/B014R3O1CS.png?width=310&height=480" alt="Portada de 'Palabras radiantes'"></td>
-            </tr>
-            <tr>
-                <td>2.5</td>
-                <td>Danzante del filo</td>
-                <td>22 de Noviembre de 2016</td>
-                <td><img width=100% height="200" src="https://media.discordapp.net/attachments/1025054668038090855/1144032505809358959/big.png" alt="Portada de 'Danzante del filo'"></td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Juramentada</td>
-                <td>14 de noviembre de 2017</td>
-                <td><img width=100% height="200" src="https://media.discordapp.net/attachments/1025054668038090855/1144032587245961388/juramentada.png?width=311&height=480" alt="Portada de 'Juramentada'"></td>
-            </tr>
-            <tr>
-                <td>3.5</td>
-                <td>Esquirla del amanecer</td>
-                <td>5 de noviembre de 2020</td>
-                <td><img width=100% height="200" src="https://media.discordapp.net/attachments/1025054668038090855/1144033074359832646/cover.png?width=314&height=480" alt="Portada de 'Esquirla del amanecer'"></td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>El ritmo de la guerra</td>
-                <td>17 de Noviembre de 2020</td>
-                <td><img width=100% height="200" src="https://media.discordapp.net/attachments/1025054668038090855/1144033175035719810/cover.png?width=313&height=480" alt="Portada de 'El ritmo de la guerra'"></td>
-            </tr>
-        </table>
-    </h3>
-    
-    <h2>Pais de Origen: Estados unidos</h2>
-    <h2>Género: Alta fantasia</h2>
-    <h2>Autor: Brandon Sanderson</h2>
+                    <th>Portada</th>
+        </tr>
+        <tr>
+            <td class="alignCenter">1</td>
+            <td>El camino de los reyes</td>
+            <td>31 de agosto de 2010</td>
+            <td class="alignCenter"><img class="maxWidth" height="200" src="https://media.discordapp.net/attachments/1025054668038090855/1144031957483782245/51Qh9KpS2CL.png" alt="Portada de 'El camino de los reyes'"></td>
+        </tr>
+        <tr>
+            <td class="alignCenter">2</td>
+            <td>Palabras radiantes</td>
+            <td>4 de Marzo de 2014</td>
+            <td class="alignCenter"><img class="maxWidth" height="200" src="https://media.discordapp.net/attachments/1025054668038090855/1144032380605186108/B014R3O1CS.png?width=310&height=480" alt="Portada de 'Palabras radiantes'"></td>
+        </tr>
+        <tr>
+            <td class="alignCenter">2.5</td>
+            <td>Danzante del filo</td>
+            <td>22 de Noviembre de 2016</td>
+            <td class="alignCenter"><img class="maxWidth" height="200" src="https://media.discordapp.net/attachments/1025054668038090855/1144032505809358959/big.png" alt="Portada de 'Danzante del filo'"></td>
+        </tr>
+        <tr>
+            <td class="alignCenter">3</td>
+            <td>Juramentada</td>
+            <td>14 de noviembre de 2017</td>
+            <td class="alignCenter"><img class="maxWidth" height="200" src="https://media.discordapp.net/attachments/1025054668038090855/1144032587245961388/juramentada.png?width=311&height=480" alt="Portada de 'Juramentada'"></td>
+        </tr>
+        <tr>
+            <td class="alignCenter">3.5</td>
+            <td>Esquirla del amanecer</td>
+            <td>5 de noviembre de 2020</td>
+            <td class="alignCenter"><img class="maxWidth" height="200" src="https://media.discordapp.net/attachments/1025054668038090855/1144033074359832646/cover.png?width=314&height=480" alt="Portada de 'Esquirla del amanecer'"></td>
+        </tr>
+        <tr>
+            <td class="alignCenter">4</td>
+            <td>El ritmo de la guerra</td>
+            <td>17 de Noviembre de 2020</td>
+            <td class="alignCenter"><img class="maxWidth" height="200" src="https://media.discordapp.net/attachments/1025054668038090855/1144033175035719810/cover.png?width=313&height=480" alt="Portada de 'El ritmo de la guerra'"></td>
+        </tr>
+    </table>
+    <h3><a href="#Inicio">Volver a inicio 🏠</a></h3>
+
     <hr>
+    <h2 id="InfoGeneral">Informacion General</h2>
+    <h3>Pais de Origen: Estados unidos</h3>
+    <h3>Género: Alta fantasia</h3>
+    <h3>Autor: Brandon Sanderson</h3>
+    <h3><a href="#Inicio">Volver a inicio 🏠</a></h3>
+    <hr>
+
     <h2>Sinopsis</h2>
-    El archivo de las tormentas es una serie de libros la cual toma lugar en un planeta llamado "Roshar". La serie trata acerca de como después de "La ultima desolacion" Roshar se encuentra cerca de volver a vivir una nueva desolacion, en este caso, la que destruira el mundo, es por eso que Dalinar se dedicara a reunir a los radiantes perdidos y renacer los juramentos.
 
-    <br>
-    <br>
-    <hr>
-    <h3>Temporadas</h3>
-    Las <a href="#temporadas">temporadas</a> son cada libro, click en el link para verlas
+    El archivo de las tormentas es una serie de libros la cual toma lugar en un planeta llamado "Roshar". La serie trata acerca de como después de "La ultima desolacion" Roshar se encuentra cerca de volver a vivir una nueva desolacion, en este caso, la que
+    destruira el mundo, es por eso que Dalinar se dedicara a reunir a los radiantes perdidos y renacer los juramentos.
 
+    <h3><a href="#Inicio">Volver a inicio 🏠</a></h3>
     <hr>
-    <h3>Personajes</h3>
-    <table border="1">
+
+    <h2 id="Personajes">Personajes</h2>
+    <table class="alignCenter" border="1">
         <tr>
             <th>Nombre</th>
             <th>Foto</th>
@@ -80,7 +112,7 @@
         <tr>
             <td>Kaladin</td>
             <td><img src="https://media.discordapp.net/attachments/635273333491105832/1144138097840365589/e5e064ff577671952c4a4a08f0a19ff021aa43ecr1-729-1095v2_uhq.png?width=319&height=480" alt="Kaladin bendito por la tormenta" width="150" height="100%"></td>
-            <td>Kaladin es el primero en pronunciar las palabras de los potenciadores que protegen, esto hace que Kaladin sea el primer radiante en apaarcer en la seire de libros.</td>
+            <td>Kaladin es el primero en pronunciar las palabras de los potenciadores que protegen, esto hace que Kaladin sea el primer radiante en aparecer en la seire de libros.</td>
         </tr>
         <tr>
             <td>Shallan</td>
@@ -98,13 +130,18 @@
             <td>Adolin es el hijo de Dalinar, un chico el que lo ha tenido todo en esta vida y le encanta la pelea y los duelos en donde pueda ganar espadas esquirladas y armaduras esquirladas por igual. Es un buen combatiente pero es impulsivo.</td>
         </tr>
     </table>
+    <h3><a href="#Inicio">Volver a inicio 🏠</a></h3>
+    <hr>
 
-    <hr>
-    <h3>Sociales</h3>
+    <h2 id="Sociales">Sociales</h2>
     <h4><a href="https://www.brandonsanderson.com/" target="_blank" rel="noopener noreferrer">Brandon Sanderson Oficial Site</a></h4>
-    <br>
+    <h3><a href="#Inicio">Volver a inicio 🏠</a></h3>
     <hr>
-    <h3>Video Mejo Escena</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/-5aRbien4fw?si=Bm3sp36YEQvd6ogf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h2 id="Escena">Video Mejor Escena</h2>
+    <iframe class="maxWith" width="560" height="315" src="https://www.youtube.com/embed/-5aRbien4fw?si=Bm3sp36YEQvd6ogf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <h3><a href="#Inicio">Volver a inicio 🏠</a></h3>
 </body>
+
 </html>

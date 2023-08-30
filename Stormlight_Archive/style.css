@@ -1,0 +1,31 @@
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    color: rgb(253, 235, 211);
+    background-color: rgba(35, 91, 195, 0.754);
+}
+
+a {
+    color: rgb(208, 234, 253);
+}
+
+a:hover {
+    color: rgb(0, 65, 106);
+}
+
+h2 {
+    color: rgb(92, 42, 255);
+}
+
+table {
+    width: 100%;
+}
+
+.maxWith {
+    max-width: 100%;
+}
+
+.alignCenter {
+    text-align: center;
+}
